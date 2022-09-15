@@ -4,10 +4,63 @@ body {
     padding: 0;
 }
 .container-h1 {
-    background-color: aqua;
-    margin: 60px;
     background-image: url(../assets/design1_image1.jpg);
-    width: 70vw;
-    height: 250px;
-    background-position: center;
+    width: 80vw;
+    height: 40vh;
+    background-position-y: 26%;
+    background-size: cover;
+    margin: auto;
+    margin-top: 15vh;
+    font-size: 25px;
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 0;
+    width: 80vw;
+    height: 30px;
+    margin: auto;
+}
+
+h4 {
+    margin: 0;
+}
+
+ul >li {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+ul >li >a:hover {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.body {
+    display: flex;
+}
+
+.text {
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+.navbar {
+    margin-top: 30px;
+    padding-left: 100px;
+}
+
+p {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+
 }
