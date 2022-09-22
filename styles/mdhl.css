@@ -40,21 +40,25 @@ h2 {
     display: flex;
     width: 80vw;
     margin: auto;
+    padding-bottom: 60px;
 }
 
-.navbar {
-    display: flex;
-}
-
-.navbar>ul {
+nav {
     margin-top: 40px;
+}
+
+nav>ul {
+    margin: 0;
     width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 0%;
 }
 
-.navbar>ul>li {
+nav>ul>li {
     list-style-type: none;
-    margin-bottom: 30px;
 }
 
 .text {
@@ -74,12 +78,15 @@ p {
 }
 
 .top-heading {
-    text-align: center;
-    margin: 40px;
+    margin: 40px 200px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .rules-content {
     margin: 0%;
+    margin-top: 40px;
     padding: 0%;
 }
 
@@ -87,12 +94,12 @@ p {
     margin: 20px 0 10px 0;
 }
 
-ol {
+.ol-IHF {
     margin: 0%;
     padding: 0%;
 }
 
-ol>li {
+.ol-IHF>li {
     margin-bottom: 20px;
     list-style-position: inside;
 }
@@ -120,4 +127,12 @@ ol>li {
     margin: 0;
     padding-left: 40px;
 
+}
+
+.text>h4 {
+    margin: 0 0 5px 0;
+}
+
+.text>p {
+    margin: 0 0 15px 0;
 }
