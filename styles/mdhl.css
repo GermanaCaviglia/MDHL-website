@@ -2,7 +2,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Combo', cursive;
+    font-family: 'Merriweather', serif;
 }
 
 .container-title {
@@ -38,27 +38,27 @@ h2 {
 
 .main {
     display: flex;
+    width: 80vw;
+    margin: auto;
 }
 
 .navbar {
-    margin-top: 30px;
-    padding-left: 100px;
-    padding-right: 50px;
     display: flex;
 }
 
-ul {
-    margin: 0;
-    width: 100px;
+.navbar>ul {
+    margin-top: 40px;
+    width: 200px;
+    padding: 0%;
 }
 
-ul>li {
+.navbar>ul>li {
     list-style-type: none;
     margin-bottom: 30px;
 }
 
 .text {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 h4 {
@@ -66,11 +66,58 @@ h4 {
 }
 
 p {
-    padding-right: 120px;
-    padding-bottom: 20px;
     margin: 0;
 }
 
 .textindent {
     text-indent: 2rem;
+}
+
+.top-heading {
+    text-align: center;
+    margin: 40px;
+}
+
+.rules-content {
+    margin: 0%;
+    padding: 0%;
+}
+
+.rules-content>h4 {
+    margin: 20px 0 10px 0;
+}
+
+ol {
+    margin: 0%;
+    padding: 0%;
+}
+
+ol>li {
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+
+.ol-IHF>li::marker {
+    font-weight: bold;
+}
+
+.ol-IHF>li>span {
+    font-weight: bold;
+}
+
+.ul-IHF {
+    margin: 0%;
+    padding: 0%;
+}
+
+.ul-IHF>li {
+    list-style-type: lower-alpha;
+}
+
+.ul-allplay {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0;
+    padding-left: 40px;
+
 }
