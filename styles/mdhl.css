@@ -138,7 +138,7 @@ p {
 }
 
 table {
-    margin: 50px 0;
+    margin: 40px 0;
 }
 th, td {
     padding: 5px 40px 5px 0px;
@@ -151,14 +151,19 @@ p > span {
 }
 
 .gameinfo-display {
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .gameinfo-display > h3 {
+    margin: 0;
+    padding: 0 0 20px 130px ;
+    font-size: 32px;
+}
+.gameinfo-display > h4 {
     margin-top: 0%;
     font-style: italic;
 }
-.gameinfo-display > h4 {
+.gameinfo-display > h5 {
     font-style: italic;
     text-decoration: underline;
 }
